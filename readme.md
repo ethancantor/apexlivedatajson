@@ -1,8 +1,10 @@
-# Apex Legends Live Data API
+# Apex Legends Live Data Websocket API
 
-A TypeScript library that provides type-safe message creation for the Apex Legends Live Data API. Simplifies building requests for observer camera control, custom match management, and lobby operations. 
+A TypeScript library that provides type-safe message creation for the Apex Legends Live Data Websocket API. Simplifies building requests for observer camera control, custom match management, and lobby operations. 
 
-The Apex Legends api changes every so often so this may go out of date fairly quickly. 
+This does **NOT** use Protobuf but rather just raw JSON. Make sure to add ``+cl_liveapi_enabled 1 +cl_liveapi_use_protobuf 0`` to your launch options.
+
+The Apex Legends API changes every so often so this may go out of date fairly quickly. You can find the API in ``USER\Saved Games\Respawn\Apex\assets\temp\live_api``
 
 ## Installation
 

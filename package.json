@@ -17,5 +17,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethancantor/apexlivedatajson.git"
+  },
+  "homepage": "https://github.com/ethancantor/apexlivedatajson#readme"
 }
